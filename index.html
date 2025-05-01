@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future</title>
+
+    <!-- Estilos locales y FontAwesome para íconos -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ===== HEADER: Logo + Menú de navegación ===== -->
+    <header>
+        <div class="menuTop">
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="techniques.html">Techniques</a></li>
+                <li><a href="grafica.html">About</a></li>
+            </ul>
+
+            <!-- Botón menú hamburguesa para móviles -->
+            <div class="toggleMenu" onclick="document.querySelector('.menu').classList.toggle('active')">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <!-- Título principal -->
+        <h1>Future</h1>
+    </header>
+
+
+
+        <!-- ===== SECCIÓN: Transport ===== -->
+        <div class="bigTitle" id="future-jobs">
+            <div class="title">Future Jobs </div>
+            <div class="des">
+                In the future, jobs will change a lot. 
+            </div>
+        </div>
+
+        <!-- Lista de medios de transporte con íconos -->
+        <div class="transport">
+            <ul>
+                <li><i class="fa-solid fa-person-walking zoom"></i>Walk</li>
+                <li><i class="fa-solid fa-motorcycle zoom"></i>Moto</li>
+                <li><i class="fa-solid fa-car zoom"></i>Car</li>
+                <li><i class="fa-solid fa-plane zoom"></i>Plane</li>
+                <li><i class="fa-solid fa-helicopter zoom"></i>Helicopter</li>
+                <li><i class="fa-solid fa-ship zoom"></i>Ship</li>
+            </ul>
+        </div>
+
+        <!-- BLOQUES ELIMINADOS: Checkin / Más Información -->
+
+        <!-- ===== NUEVA SECCIÓN: Bloques con texto e imagen ===== -->
+        <div class="infoBlocks">
+
+            <!-- Bloque 1 -->
+            <div class="block">
+                <div class="text">
+                    <h2>Future Jobs</h2>
+                    <p>People are going to work with robots and artificial intelligence. Some jobs, like drivers or cashiers, may not exist because machines will do them. But new jobs will appear in areas like technology and science. People are going to need to learn new skills all the time, and they will have to be flexible and adapt to these changes. It is very important to be ready for new opportunities.</p>
+                </div>
+                <div class="image">
+                    <img src="image/job.jpg" alt="Imagen. Trabajo futuro">
+                </div>
+            </div>
+
+            <!-- Bloque 2 (invertido) -->
+            <div class="block reverse" id="future-life">
+                <div class="text">
+                    <h2>Future Life </h2>
+                    <p>In the future, people will use robots at home. Robots will cook and clean. Cars will drive themselves, and we won’t need to drive. Students will study online and won’t go to school every day. We will use clean energy like wind and sun. People will live longer because medicine will be better. Some jobs will disappear, but life will be easier. I think the future will be exciting.</p>
+                </div>
+                <div class="image">
+                    <img src="image/future.jpg" alt="Imagen futurista">
+                </div>
+            </div>
+
+
+            <!-- Bloque 3 -->
+            <div class="block">
+                <div class="text">
+                    <h2>Future Life </h2>
+                    <p>Phasellus ultrices nulla quis nibh...</p>
+                </div>
+                <div class="image">
+                    <img src="image/future_2.jpg" alt="Descripción 3">
+                </div>
+            </div>
+        </div>
+
+
+
+    <!-- ===== SECCIÓN: Checkin con imagen y descripción ===== -->
+    <div class="checkin">
+
+        <!-- Ítems con imagen y texto -->
+        <div class="item">
+            <a href="quiz.html" target="_blank">
+                <img src="image/quiz.webp" class="zoom">
+            </a>
+            <div class="content">
+                <div class="title">Health Quiz</div>
+                <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+            </div>
+        </div>
+
+        <!-- Resto de ítems (sin enlaces) -->
+        <div class="item">
+            <a href="natural.html" target="_blank">
+                <img src="image/eagel3.jpg" class="zoom">
+            </a>
+            <div class="content">
+                <div class="title">Natural Wonders</div>
+                <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+            </div>
+        </div>
+
+        <div class="item">
+            <a href="fashion.html" target="_blank">
+                <img src="image/fashion.jpg" class="zoom">
+            </a>
+            <div class="content">
+                <div class="title">Fashion Article </div>
+                <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+            </div>
+        </div>
+
+        <div class="item">
+            <a href="habits.html" target="_blank">
+                <img src="image/habits.jpg" class="zoom">
+            </a>
+            <div class="content">
+                <div class="title">Healthy Habits </div>
+                <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+            </div>
+        </div>
+
+        <div class="item">
+            <a href="hotel.html" target="_blank">
+                <img src="image/hotel.jpg" class="zoom">
+            </a>
+            <div class="content">
+                <div class="title">Hotel Description </div>
+                <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+            </div>
+        </div>
+
+        <div class="item">
+            <a href="retro.html" target="_blank">
+                <img src="image/retro.webp" class="zoom">
+            </a>
+            <div class="content">
+                <div class="title">Retro Gadgets</div>
+                <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="content">
+            <div class="item">
+                <ul>
+                    <li><a href="index.html#future-jobs">Future Jobs</a></li>
+                    <li><a href="fashion.html">Fashion Article</a></li>
+                    <li><a href="natural.html">Natural Wonders</a></li>
+                    <li><a href="index.html#future-life">Future Life</a></li>
+                </ul>
+            </div>
+            <div class="item">
+                <ul>
+                    <li><a href="habits.html">Healthy Habits</a></li>
+                    <li><a href="natural_phenomena.html">Natural Phenomena</a></li>
+                    <li><a href="quiz.html">Health Quiz</a></li>
+                    <li><a href="hotel.html">Hotel Description</a></li>
+                </ul>
+            </div>
+            <div class="item">
+                <ul>
+                    <li><a href="retro.html">Retro Gadgets</a></li>
+                    <li><a href="techniques.html">Techniques to be Healthy</a></li>
+                    <li><a href="index.html#advertisements">Advertisements</a></li>
+                    <li><a href="about.html">About</a></li> <!-- Corregido "Abaout" -->
+                </ul>
+            </div>
+            <div class="item">
+                <h3>Contact</h3>
+                <textarea rows="10" placeholder="Message"></textarea>
+                <input type="email" placeholder="Email">
+                <button>Send</button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== Carrusel de anuncios ===== -->
+    <div class="carousel-slider" id="advertisements">
+        <div class="slider-track">
+
+            <!-- Slides duplicados para efecto de bucle -->
+            <div class="slide"><a href="adds_one.html" target="_blank"><img src="image/banner_1.jpg" alt="Anuncio 1"></a></div>
+            <div class="slide"><a href="adds_two.html" target="_blank"><img src="image/banner_4.jpg" alt="Anuncio 2"></a></div>
+            <div class="slide"><a href="adds_three.html" target="_blank"><img src="image/banner_3.jpg" alt="Anuncio 3"></a></div>
+
+            <!-- Repetición para el loop -->
+            <div class="slide"><a href="adds_one.html" target="_blank"><img src="image/banner_1.jpg" alt="Anuncio 1"></a></div>
+            <div class="slide"><a href="adds_two.html" target="_blank"><img src="image/banner_4.jpg" alt="Anuncio 2"></a></div>
+            <div class="slide"><a href="adds_three.html" target="_blank"><img src="image/banner_3.jpg" alt="Anuncio 3"></a></div>
+        </div>
+    </div>
+
+</body>
+</html>
